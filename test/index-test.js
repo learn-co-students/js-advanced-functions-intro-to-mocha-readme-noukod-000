@@ -10,7 +10,7 @@ describe('Intro to Mocha', function () {
       expect(sayHey()).toEqual('Hey!');
     });
   });
-
+//custom comment
   describe('sayHeyFriend(name)', function () {
     it("should return a greeting with the given name", function () {
       expect(sayHeyFriend('Kristin')).toBe('Hey, Kristin!');
